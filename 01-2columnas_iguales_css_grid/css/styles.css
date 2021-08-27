@@ -38,4 +38,26 @@ h1 {
     text-transform: uppercase;
 }
 
+
 /** CODIGO AQUI **/
+
+
+/*
+.grid {
+    display: grid;
+    column-gap: 2rem;
+}*/
+
+@media(min-width: 768px) {
+    .grid {
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        /*maximo 100%*/
+    }
+}
+
+.entrada-blog a {
+    width: 100%;
+    text-align: center;
+}
